@@ -68,7 +68,6 @@
     color: white;
     font-family: 'Nunito', sans-serif;
     overflow: scroll;
-    z-index: ;
 }
 .userText,.othersText{
     position: relative;
@@ -163,6 +162,15 @@
     font-family: 'Nunito', sans-serif;
     color: white;
     margin: auto;
-    right: 23%;z-index: +3;
-    top: 9%;
+    right: 95px;z-index: +3;
+    top: 65px;
+}
+.dk{
+    background: #000;
+    height: 85px;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    bottom: 0;right: 0;left: 0;
+    z-index: +1;
 }
