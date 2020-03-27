@@ -7,6 +7,9 @@
     top:0;right:0;left:0;bottom:0;
     background: linear-gradient(rgb(1, 0, 48), black);
 }
+.interact{
+    z-index: +2;
+}
 .title{
     position: absolute;
     height: 100px;
@@ -17,7 +20,7 @@
     top: 0;right: 0;left: 0;
     color: rgb(4, 0, 255);
     font-family: 'Pacifico', cursive;
-    z-index: +3;
+    z-index: +10;
 }
 .textMsg{
     position: absolute;
@@ -33,8 +36,10 @@
     padding: 15px;
     border-radius: 50px;
     color: white;
+    z-index: +2;background: #000;
 }
 .sendBtn{
+    z-index: +2;
     position: absolute;
     height: 55px;
     width: 55px;
@@ -44,6 +49,7 @@
     box-shadow: 0 0 20px rgb(2, 0, 97);
     background-color: transparent;
     border-radius: 50%;
+    background: #000;
 }
 .sendBtn img{
     position: absolute;
@@ -54,13 +60,15 @@
 }
 .messagingArea{
     position: absolute;
-    height: 70%;
+    height: 75%;
     width: 95%;
     margin: auto;
     top: 95px;right: 0;left: 0;
     background: transparent;
     color: white;
     font-family: 'Nunito', sans-serif;
+    overflow: scroll;
+    z-index: ;
 }
 .userText,.othersText{
     position: relative;
@@ -130,6 +138,7 @@
     height:100%;
     width:100%;
     margin: auto;
+    z-index: +9;
     top: 0;right: 0;left: 0;bottom: 0;
     background: linear-gradient(rgb(1, 0, 48), black);
     transition: .5s;
@@ -147,6 +156,7 @@
 }
 .gf{
     bottom: 12%;
+    color: rgb(255, 153, 1);
 }
 .bm{
     position: absolute;
