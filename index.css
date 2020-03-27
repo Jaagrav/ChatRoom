@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Pacifico&display=swap');
+.background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    top:0;right:0;left:0;bottom:0;
+    background: linear-gradient(rgb(1, 0, 48), black);
+}
+.title{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    top: 0;right: 0;left: 0;
+    color: rgb(4, 0, 255);
+    font-family: 'Pacifico', cursive;
+    z-index: +3;
+}
+.textMsg{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    height: 25px;
+    width: 68%;
+    bottom: 15px;
+    left: 15px;
+    box-shadow: 0 0 20px rgb(2, 0, 97);
+    border: 0; outline: none;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+}
+.sendBtn{
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    bottom: 15px;
+    border: 0; outline: none;
+    right: 15px;
+    box-shadow: 0 0 20px rgb(2, 0, 97);
+    background-color: transparent;
+    border-radius: 50%;
+}
+.sendBtn img{
+    position: absolute;
+    height: 20px;
+    filter: invert(1);
+    margin: auto;
+    top: 0;right: 0;left: 0;bottom: 0;
+}
+.messagingArea{
+    position: absolute;
+    height: 70%;
+    width: 95%;
+    margin: auto;
+    top: 95px;right: 0;left: 0;
+    background: transparent;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.userText,.othersText{
+    position: relative;
+    word-wrap: break-word;
+    padding: 15px;
+    width: fit-content;
+    background: linear-gradient(45deg, rgb(233, 141, 35), rgb(211, 71, 46), rgb(201, 0, 0));
+    border-radius: 0px 50px 50px 50px;
+    float: left;
+    font-size: 20px;
+}
+.separator{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    float: left;
+}
+.userText{
+    float: right;
+    border-radius: 50px 0px 50px 50px;
+    background: linear-gradient(45deg, rgb(0, 194, 184), rgb(0, 96, 151), rgb(11, 37, 53));
+}
+.identity{
+    position: absolute;
+    height: 40%;
+    width: 90%;
+    margin: auto;
+    top: 0;right: 0;left: 0;bottom: 0;
+    border-radius: 30px;
+    background: #000;
+}
+.userName{
+    position: absolute;
+    margin: auto;
+    background: transparent;
+    right: 0;left: 0;
+    height: 15px;
+    width: 70%;
+    padding: 15px;
+    border-radius: 50px;
+    top: 65px; border: 0;
+    outline:none;
+    font-size: 20px;
+    color: white;
+    transition: .8s;
+}
+.userName:hover, .addChild:hover{
+    box-shadow: 0 0 30px rgb(20, 33, 77);
+}
+.addChild{
+    position: absolute;
+    margin: auto;
+    right: 0;left: 0;
+    height: 50px;
+    width: 100px;
+    transition: .8s;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+    top: 155px; border: 0;
+    outline:none;
+    font-size: 20px;
+    background: linear-gradient(45deg, rgb(0, 194, 184), rgb(0, 96, 151), rgb(11, 37, 53));
+}
+.cover{
+    position: absolute;
+    height:100%;
+    width:100%;
+    margin: auto;
+    top: 0;right: 0;left: 0;bottom: 0;
+    background: linear-gradient(rgb(1, 0, 48), black);
+    transition: .5s;
+}
+.pb,.gf{
+    position: absolute;
+    color: white;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    right: 0;left: 0;
+    height: 20px;
+    width: 90%;
+    bottom: 15%;
+    text-align: center;
+}
+.gf{
+    bottom: 12%;
+}
+.bm{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    margin: auto;
+    right: 23%;z-index: +3;
+    top: 9%;
+}
