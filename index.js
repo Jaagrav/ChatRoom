@@ -6,6 +6,8 @@ setInterval(() => {
 function sendMsg() {
     var firebaseref = firebase.database().ref();
     firebaseref.child("Texts").push(x + ": " + document.querySelector('.textMsg').value);
+    document.querySelector(".textMsg").value = "";
+    document.querySelector(".messagingArea").scrollTop = document.querySelector(".messagingArea").scrollHeight;
 }
 function gotData(data) {
     var msgField = document.querySelector(".messagingArea");
